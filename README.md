@@ -1,7 +1,7 @@
-# Chat Application
+# Social Network Application
 
-The Chat Application is a client-server-based system that enables users to communicate with each other in real-time. It provides a user-friendly interface where users can connect to a server, exchange messages, manage user relationships, and perform various chat-related actions.
-Key Features of the Chat Application:
+The Social Network is a client-server-based system that enables users to communicate with each other in real-time. It provides a user-friendly interface where users can connect to a server, exchange messages, manage user relationships, and perform various chat-related actions.
+Key Features of the Social Network Application:
 * Client-Server Architecture: The application follows a client-server model, where the server acts as a centralized hub for message exchange and client management.
 * User Authentication: Users are required to authenticate themselves with a username to access the chat system, ensuring secure and personalized communication.
 * Real-time Messaging: Users can send and receive messages in real-time, allowing for instantaneous communication and conversation flow.
@@ -11,7 +11,7 @@ Key Features of the Chat Application:
 * Error Handling and Notifications: The application handles errors gracefully, providing appropriate notifications to users in case of connection issues or other errors.
 * Scalability and Extensibility: The application is designed to be scalable, allowing for the addition of more clients and features without compromising performance or stability.
 * User-Friendly Interface: The application provides a user-friendly interface with intuitive controls, making it easy for users to navigate and interact with the chat system.
-The Chat Application enhances communication and collaboration, enabling users to connect with others and engage in meaningful conversations in a convenient and efficient manner.
+The Social Network Application enhances communication and collaboration, enabling users to connect with others and engage in meaningful conversations in a convenient and efficient manner.
 
 
 ## Server Side
@@ -59,7 +59,7 @@ The server-side code provides the main logic for handling client connections, us
 - User Management: The server keeps track of active users, handles user disconnections, and provides functionality for retrieving user lists, followers, and other user-related data.
 
 
-## Chat Application Client
+## Social Network Application Client
 
 This is the client-side application for the chat system. It provides a user interface for users to connect to the server, send and receive messages, manage user relationships (followers/following), and perform other supported actions.
 
@@ -107,4 +107,4 @@ The client-side code provides the user interface and handles user actions and in
 - Message Sending: Authenticated clients can send messages to the server to be broadcasted.
 - Message Receiving: Clients receive messages from the server and display them in the user interface.
 - User Management: The client can perform various user management actions, such as adding followers, viewing followers/following users, deleting messages, blocking users, and more.
-- User Interface: The Windows Forms UI allows users to interact with the chat application easily.
+- User Interface: The Windows Forms UI allows users to interact with the Social Network Application easily.
